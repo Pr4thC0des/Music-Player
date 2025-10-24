@@ -46,12 +46,12 @@ This Flutter app is designed as a comprehensive music player with:
 ## 📦 Installation & Setup
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/flutter-music-player.git
-cd flutter-music-player
+    ```bash
+    git clone https://github.com/yourusername/flutter-music-player.git
+    cd flutter-music-player
 
 2. **Install dependencies**
-```bash
+    ```bash
     flutter pub get
 
 3. **Configure backend URL & Hive**
@@ -59,8 +59,8 @@ cd flutter-music-player
 Update your backend API URLs and ensure Hive initialization is properly done in `main.dart`
 
 4. **Run the app**
-```bash
-  flutter run
+    ```bash
+    flutter run
 
 
 ---
