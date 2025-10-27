@@ -45,7 +45,7 @@ This Flutter app is designed as a comprehensive music player with:
 
 ## 🖼️ App Screenshots
 
-| Main Screen | Favorites | Library 1 | Library 2 |
+| Main Screen | Favorites | Library | Library Grid View |
 |--------------|------------|------------|------------|
 | ![Main Screen](assets/images/mainscreen.jpg) | ![Favorites](assets/images/favorites.jpg) | ![Library 1](assets/images/library-1.jpg) | ![Library 2](assets/images/library-2.jpg) |
 
