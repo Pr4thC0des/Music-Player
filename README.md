@@ -47,11 +47,11 @@ This Flutter app is designed as a comprehensive music player with:
 
 | Main Screen | Favorites | Library 1 | Library 2 |
 |--------------|------------|------------|------------|
-| ![Main Screen](assets/images/mainscreen.png) | ![Favorites](assets/images/favorites.png) | ![Library 1](assets/images/library-1.png) | ![Library 2](assets/images/library-2.png) |
+| ![Main Screen](assets/images/mainscreen.jpg) | ![Favorites](assets/images/favorites.jpg) | ![Library 1](assets/images/library-1.jpg) | ![Library 2](assets/images/library-2.jpg) |
 
 | Sort | Profile | Logout |
 |------|----------|---------|
-| ![Sort](assets/images/sort.png) | ![Profile](assets/images/profile.png) | ![Logout](assets/images/logout.png) |
+| ![Sort](assets/images/sort.jpg) | ![Profile](assets/images/profile.jpg) | ![Logout](assets/images/logout.jpg) |
 
 ---
 
