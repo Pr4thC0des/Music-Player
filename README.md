@@ -19,13 +19,13 @@ This Flutter app is designed as a comprehensive music player with:
 
 ## 🎯 Key Features
 
-- **Effortless Music Browsing:** View, play, and manage playlists and favorites with easy navigation
-- **Offline Capability:** Cache song metadata and favorites locally using Hive—enjoy music without internet
-- **Backend API Integration:** Fetch songs, albums, profiles directly from a Django backend with secure REST API calls
-- **Dynamic UI Themes:** Dark theme with Material 3 color scheme seeded from custom colors for a modern look
-- **Profile Screen with Custom Navigation:** Seamless return to profile screen with custom back button gestures
-- **Image & Media Management:** Stream song album art and tracks from Cloudinary CDN with graceful error handling
-- **Smooth Animations & Responsive Sizing:** UI elements scale and animate smoothly across devices with ScreenUtil
+- **Effortless Music Browsing:** View, play, and manage playlists and favorites with easy navigation  
+- **Offline Capability:** Cache song metadata and favorites locally using Hive—enjoy music without internet  
+- **Backend API Integration:** Fetch songs, albums, profiles directly from a Django backend with secure REST API calls  
+- **Dynamic UI Themes:** Dark theme with Material 3 color scheme seeded from custom colors for a modern look  
+- **Profile Screen with Custom Navigation:** Seamless return to profile screen with custom back button gestures  
+- **Image & Media Management:** Stream song album art and tracks from Cloudinary CDN with graceful error handling  
+- **Smooth Animations & Responsive Sizing:** UI elements scale and animate smoothly across devices with ScreenUtil  
 
 ---
 
@@ -43,25 +43,39 @@ This Flutter app is designed as a comprehensive music player with:
 
 ---
 
+## 🖼️ App Screenshots
+
+| Main Screen | Favorites | Library 1 | Library 2 |
+|--------------|------------|------------|------------|
+| ![Main Screen](assets/images/mainscreen.png) | ![Favorites](assets/images/favorites.png) | ![Library 1](assets/images/library-1.png) | ![Library 2](assets/images/library-2.png) |
+
+| Sort | Profile | Logout |
+|------|----------|---------|
+| ![Sort](assets/images/sort.png) | ![Profile](assets/images/profile.png) | ![Logout](assets/images/logout.png) |
+
+---
+
 ## 📦 Installation & Setup
 
 1. **Clone the repository**
     ```bash
     git clone https://github.com/yourusername/flutter-music-player.git
     cd flutter-music-player
+    ```
 
 2. **Install dependencies**
     ```bash
     flutter pub get
+    ```
 
 3. **Configure backend URL & Hive**
 
-Update your backend API URLs and ensure Hive initialization is properly done in `main.dart`
+   Update your backend API URLs and ensure Hive initialization is properly done in `main.dart`.
 
 4. **Run the app**
     ```bash
     flutter run
-
+    ```
 
 ---
 
@@ -75,16 +89,16 @@ Please fork the repo and create your branch from `main`.
 
 ## 💡 Tips & Gotchas
 
-- Always register Hive adapters before opening boxes to avoid typeId errors
-- Define either `home` or `initialRoute` with proper routes to prevent Navigator route errors
-- Handle network image exceptions gracefully to avoid crashes on missing album art
-- Use `pushReplacementNamed` for custom back navigation when overriding back button behavior
+- Always register Hive adapters before opening boxes to avoid typeId errors  
+- Define either `home` or `initialRoute` with proper routes to prevent Navigator route errors  
+- Handle network image exceptions gracefully to avoid crashes on missing album art  
+- Use `pushReplacementNamed` for custom back navigation when overriding back button behavior  
 
 ---
 
 ## 📞 Contact
 
-For questions or support, open an issue in the repo or reach out via email: prathulkm@gmail.com
+For questions or support, open an issue in the repo or reach out via email: **prathulkm@gmail.com**
 
 ---
 
@@ -93,4 +107,3 @@ Enjoy a smooth and rich music experience powered by Flutter! 🎶
 ---
 
 *This README was thoughtfully crafted to help developers and users get the best out of the Flutter Music Player project.*
-
